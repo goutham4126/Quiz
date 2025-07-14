@@ -1,10 +1,10 @@
-import { Areachart } from "@/components/charts/Areachart";
+
 export default function Home() {
 
   return (
     <div>
-        Home page
-        <Areachart/>
+      <h1>Welcome to My App</h1>
+      <p>This is the home page of my application.</p>
     </div>
   );
 }
