@@ -1,10 +1,12 @@
+import Link from "next/link";
 
 export default function Home() {
 
   return (
     <div>
       <h1>Welcome to My App</h1>
-      <p>This is the home page of my application.</p>
+      <Link href="/pdf">PDF</Link>
+      <Link href="/prompt">Prompt</Link>
     </div>
   );
 }
